@@ -11,7 +11,7 @@ st.title("Loan Status Predictor")
 
 # Load and preprocess data
 def load_data():
-    df = pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
+    df = pd.read_csv("Loan_data.csv")
     df.drop("Loan_ID", axis=1, inplace=True)
 
     # Fill missing values
